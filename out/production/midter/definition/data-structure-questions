@@ -1,0 +1,269 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+A.
+   -We need data structure
+   to achieve all the operations(insertion, Deletion, or change the value),dtata structure provide architecture to store and manipulate group of Objects
+   Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
+
+=================================================
+What are the various operations that can be performed on different Data Structures?
+A.
+There are 8 operations that can be performed on Data Structures. These are
+    1-Creation:=====Creating a data structure according to the requirement.
+    2-insertion:====Inserting values into data structure.
+    3-sorting:======Rearranging the elements in a particular order, ascending or descending order.
+    4-Update:=======Updating the current value in the data structure with some new value.
+    5-search:=======Searching of an element in the given number of elements.
+    6-Traversal:====Visiting each element of the data structure at least once.
+    7-Merging:======Combining the data items of two sorted files into single file in the sorted form.
+    8-deletion:=====Deleting the undesired value from the data structure.
+
+=================================================
+List out the areas in which data structures are applied extensively?
+A.
+      + Compiler Design,
+      + Operating System,
+      + Database Management System,(DBMS)
+      + Statistical analysis package,
+      + Numerical Analysis,
+      + Graphics,
+      + Artificial Intelligence,
+      + Simulation.
+
+=================================================
+what is an Array?
+A.
+    Array in Java is an object which contains elements of a similar data type.
+    The elements of an array are stored in a contiguous memory location.
+    It is a data structure where we store similar elements.
+    We can store only a fixed set of elements in a Java array following the Index.
+
+=================================================
+what is the difference between the Array and ArrayList?
+A.
+    -(Static)->An array is basic functionality provided by Java,
+    -(dynamic)->ArrayList is part of collection framework in Java ,manipulating the data  set of methods to access elements and modify them.
+    ArrayList slower in insertion from Array according to time complexity
+
+=================================================
+what is LinkedList?
+A.
+Java LinkedList class uses a doubly linked list to store the elements.
+ It provides a linked-list data structure.
+ It inherits the AbstractList class and implements List and Deque interfaces.
+
+=================================================
+How is an Array different from Linked List?
+A.
+>>Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the bits are shifted in memory.
+>>Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory.
+>> An ArrayList class can act as a list only because it implements List only.
+>> LinkedList class can act as a list and queue both because it implements List and Deque interfaces.
+>> ArrayList is better for storing and accessing data.
+>> LinkedList is better for manipulating data.
+
+=================================================
+what is queue?
+A.
+    -Queue is Interface Extend Collection Interface, defines a linear collection that supports element insertion and removal at both ends
+    FIFO model:(First in First Out)
+    Older additions will be served first
+
+=================================================
+what is stack?
+A.
+  A Stack is a Last in First Out (LIFO) data structure.
+    -IT Offers two functionalities: called push and pop.
+    -The push operation adds an element at the top of the stack,
+    -the pop operation removes an element from the top of the stack.
+    -Java provides a Stack class which models the Stack data structure.
+
+=================================================
+what is FIFO and LIFO?
+A.
+(FIFO) First in First Out. Queue Model
+(LIFO) Last in First Out . Stack Model
+
+=================================================
+what is the order of complexity?
+A.
+    Algorithmic complexity is concerned about how fast or slow particular algorithm performs O(n).
+
+=================================================
+what is the best case to search an element from an array?
+A.
+  Best searching technique for searching any element in an array is Linear search for a unsorted array where no specific pattern is given
+
+=================================================
+what is the worst case to search an element from an array?
+A.
+ the Worst case time complexity which requires the array to be in sorted order and thought
+
+=================================================
+what is tree in data structure?
+A.
+   - A tree is a non-linear data structure is a collection of entities called nodes.
+     it is an abstract data type
+=================================================
+what is graph in data structure?
+A.
+    A Graph is a non-linear data structure consisting of Arrays and edges.
+
+=================================================
+what is the difference between the HashTable and HashMap?
+A.
+ +=====================================+=======================================+
+ | 	       HashTable                   |       HashMap	                       |
+ +=====================================+=======================================+
+ |HashMap is non synchronized.         |Hashtable is synchronized.             |
+ |It is not-thread safe and can’t be   |It is thread-safe and can be shared    |
+ |shared between many threads without  |with many threads.                     |
+ |proper synchronization code          |                                       |
+ +=====================================+=======================================+
+ | HashMap allows one null key and     | Hashtable doesn’t allow any null key  |
+ | multiple null values                | or value.                             |
+ +=====================================+=======================================+
+ |                                     |HashMap is generally preferred over    |
+ |                                     |HashTable if thread synchronization is |
+ |                                     |not needed                             |
+ +=====================================+=======================================+
+
+=================================================
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A.
+    -RDBMS = Array (i.e. Array of structures)
+    -Network data model = Graph
+    -Hierarchical data model = Trees
+
+=================================================
+How HashMap works in java?
+A.
+      -HashMap works on the principle of hashing, we use method put(key, value) to insert data
+      and get(key) method for storing and retrieving Objects from HashMap.
+        When we pass Key and Value object to put() method on Java HashMap,
+      -HashMap in Java stores both key and value object as Map.
+
+=================================================
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.
+This exception is thrown when the index is either negative or greater than or equal to the size of the array
+
+=================================================
+What are the different ways of copying an array into another array?
+A.
+       For copying an array using 4 ways:
+       -Using variable assignment.(Manually)
+       -Create a new array of the same length and copy each element.(Arrays.copyOf())
+       -Use System.arraycopy() method. arraycopy can be used to copy a subset of an array.(System.arraycopy())
+       -Use the clone method of the array. Clone methods create a new array of the same size.(Object.clone())
+
+=================================================
+What is difference between an array and a linked list?
+A.
+        +=====================================+=======================================+
+        | 	            Array                 |              LinkedList	              |
+        +=====================================+=======================================+
+        | Memory is allocated at runtime,     | Memory is allocated at runtime,       |
+        | as and when a new node is added.    | Allocation It's also known as Dynamic |
+        | It's also known as Dynamic Memory   | Memory as and when a new node is      |
+        | Allocation                          |  added.                               |
+        +=====================================+=======================================+
+        | Array can single dimensional,       | Linked list can be Linear(Singly),    |
+        | two dimensional or multidimensional | Doubly or Circular linked list        |
+        +=====================================+=======================================+
+        |Size of the array must be specified  |Size of a Linked list is variable.     |
+        |at time of array declaration.        |It grows at runtime,                   |
+        |                                     |as more nodes are added to it.         |
+        +=====================================+=======================================+
+        | Array gets memory allocated in the  |  inked list gets memory allocated in  |
+        | Stack section                       |  Heap section.        	              |
+        +=====================================+=======================================+
+        |In array, each element is independent| In case of a linked list, each        |
+        |and can be accessed using it's index | node/element points to the next,      |
+        |value.                               |  previous,or maybe both nodes.        |
+        +=====================================+=======================================+
+        | Array can single dimensional,       | Linked list can be Linear(Singly),    |
+        | two dimensional or multidimensional | Doubly or Circular linked list        |
+        +=====================================+=======================================+
+        | Array is a collection of elements   |Linked List is an ordered collection of|
+        | of similar data type.               |elements of same type, which are       |
+        |                                     |connected to each other using pointers.|
+        +=====================================+=======================================+
+        |Array supports Random Access         |Linked List supports Sequential Access,|
+        +=====================================+=======================================+
+
+=================================================
+What is DFS and BFS?
+A.
+    Depth First Search (DFS) algorithm traverses a graph in a (depthward) motion and uses a stack to remember to get the next vertex to start a search when a dead end occurs in any iteration.
+    Breadth First Search (BFS) algorithm traverses a graph in a (breadthward) motion and uses a queue to remember to get the next vertex to start a search when a dead end occurs in any iteration.
+
+=================================================
+What is Recursion?
+A.
+    Recursion is a computer programming technique involving the use algorithm that calls itself
+    it allows you to call the same function inside the same function(recursive).
+
+=================================================
+What are linear and non linear data Structures?
+A.
+  Linear data structures:
+    Data structure whose element(objects) are sequential and ordered in a way so that:
+    there is only one first element and has only one next element,
+    there is only one last element and has only one previous element, while
+    all other elements have a next and a previous element
+  Non-linear Data Structure:
+    Data structures where data elements are not arranged sequentially or linearly are
+    called non-linear data structures.
+    In a non-linear data structure,single level is not involved.
+    we can’t traverse all the elements in single run only.
+    Non-linear data structures are not easy to implement in comparison to linear data structure.
+    It utilizes computer memory efficiently in comparison to a linear data structure.
+
+=================================================
+What is Big-(O)-notation?
+A.
+ ++-----------------++------------++------------++------------++
+ ||Datastructures   ||Bes         || Average    || Worst      ||
+ ++_________________||____________||____________||____________||
+ ||QuickSort        ||(O(n log(n))||(O(nlog(n)) ||(O(N^2)     ||
+ ||InsertionSort    ||(O(n))      || (O(n^2))   ||(O(n^2))    ||
+ ++=================++============++============++============++
+
+=================================================
+Outlined different kind of sorting algorithm with time complexity?
+A.
+==========================================+
+               || Best time complexity    |
+===============++=========================|
+Selection Sort || Ω(n^2)                  |
+Bubble Sort	   || Ω(n)                    |
+Insertion Sort || Ω(n)                    |
+Heap Sort	   || Ω(n log(n))             |
+Quick Sort	   || Ω(n log(n))             |
+Merge Sort	   || Ω(n log(n))             |
+Bucket Sort	   || Ω(n+k)                  |
+Radix Sort	   || Ω(nk)                   |
+===============++=========================+
+
+=================================================
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+A.
+  ++-----------------++----------++------------++------------++-----------++
+  ||Datastructures   ||Accessing || Insertion  || Searching  || Removing  ||
+  ++_________________||__________||____________||____________||___________++
+  ||Array            || 0(1)     || 0(n)       || 0(n)       || 0(n)      ||
+  ||Stack            || 0(n)     || 0(1)       || 0(n)       || 0(1)      ||
+  ||Queue            || 0(n)     || 0(1)       || 0(n)       || 0(1)      ||
+  ||Singly-Linkedlist|| 0(n)     || 0(1)       || 0(n)       || 0(1)      ||
+  ||Doubly-LinkedList|| 0(n)     || 0(1)       || 0(n)       || 0(1)      ||
+  ||HashTable	     || N/A      || 0(1)       || 0(1)       || 0(1)      ||
+  ||BinaryTree	     || 0(log(n) || 0(log(n)   ||0(log(n)    || 0(log(n)  ||
+  ++=================++==========++============++============++===========++
+
+
