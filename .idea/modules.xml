@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/midter.iml" filepath="$PROJECT_DIR$/midter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newmidterm/newmidterm.iml" filepath="$PROJECT_DIR$/newmidterm/newmidterm.iml" />
     </modules>
   </component>
 </project>
